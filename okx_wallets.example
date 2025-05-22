@@ -1,0 +1,19 @@
+# Пример файла с адресами кошельков OKX
+# Удалите строки с # и замените на реальные адреса
+# Должно быть минимум 119 адресов, по одному на строку
+
+cosmos1abc123def456ghi789jkl012mno345pqr678stu901
+cosmos1vwx234yza567bcd890efg123hij456klm789nop012
+cosmos1qrs345tuv678wxy901zab234cde567fgh890ijk123
+cosmos1lmn456opq789rst012uvw345xyz678abc901def234
+cosmos1ghi567jkl890mno123pqr456stu789vwx012yza345
+cosmos1bcd678efg901hij234klm567nop890qrs123tuv456
+cosmos1wxy789zab012cde345fgh678ijk901lmn234opq567
+cosmos1rst890uvw123xyz456abc789def012ghi345jkl678
+cosmos1mno901pqr234stu567vwx890yza123bcd456efg789
+cosmos1hij012klm345nop678qrs901tuv234wxy567zab890
+
+# Добавьте еще 109 адресов...
+# cosmos1...
+# cosmos1...
+# ... и так далее до 119 адресов

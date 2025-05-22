@@ -1,0 +1,19 @@
+# Пример файла с адресами кошельков Bitget
+# Удалите строки с # и замените на реальные адреса
+# Должно быть минимум 119 адресов, по одному на строку
+
+cosmos1def456ghi789jkl012mno345pqr678stu901vwx234
+cosmos1yza567bcd890efg123hij456klm789nop012qrs345
+cosmos1tuv678wxy901zab234cde567fgh890ijk123lmn456
+cosmos1opq789rst012uvw345xyz678abc901def234ghi567
+cosmos1jkl890mno123pqr456stu789vwx012yza345bcd678
+cosmos1efg901hij234klm567nop890qrs123tuv456wxy789
+cosmos1zab012cde345fgh678ijk901lmn234opq567rst890
+cosmos1uvw123xyz456abc789def012ghi345jkl678mno901
+cosmos1pqr234stu567vwx890yza123bcd456efg789hij012
+cosmos1klm345nop678qrs901tuv234wxy567zab890cde123
+
+# Добавьте еще 109 адресов...
+# cosmos1...
+# cosmos1...
+# ... и так далее до 119 адресов
