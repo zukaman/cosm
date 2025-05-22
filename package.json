@@ -1,0 +1,34 @@
+{
+  "name": "cosmos-wallet-automation",
+  "version": "1.0.0",
+  "description": "Automated Cosmos Hub wallet management system for rewards withdrawal and token distribution",
+  "main": "script.py",
+  "scripts": {
+    "install": "npm install",
+    "gas-withdraw": "node js/gas-calculator.js withdraw",
+    "gas-send": "node js/gas-calculator.js send",
+    "monitor": "node js/monitoring.js",
+    "health-check": "node js/health-check.js"
+  },
+  "keywords": [
+    "cosmos",
+    "blockchain",
+    "automation",
+    "staking",
+    "defi"
+  ],
+  "author": "zukaman",
+  "license": "MIT",
+  "dependencies": {
+    "@cosmjs/stargate": "^0.32.4",
+    "@cosmjs/tendermint-rpc": "^0.32.4",
+    "@cosmjs/proto-signing": "^0.32.4",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "node-cron": "^3.0.3",
+    "winston": "^3.11.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
