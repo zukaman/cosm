@@ -1,0 +1,231 @@
+# ============================================================================
+# Cosmos Wallet Automation - .gitignore
+# ============================================================================
+
+# 🔒 КРИТИЧЕСКИ ВАЖНО: Приватные данные
+# ============================================================================
+.env
+okx_wallets
+bitget_wallets
+binance_wallets
+*_wallets
+*.key
+*.pem
+keyring/
+keybase/
+
+# 📊 Логи и временные файлы
+# ============================================================================
+logs/
+*.log
+*.json.backup
+/tmp/
+temp/
+cache/
+
+# 🐍 Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 🟡 Node.js
+# ============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage/
+*.lcov
+.nyc_output
+.grunt
+bower_components
+.lock-wscript
+build/Release
+node_modules/
+jspm_packages/
+web_modules/
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.node_repl_history
+*.tgz
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# 💾 Базы данных
+# ============================================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# 🖥️ Операционные системы
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 🛠️ IDE и редакторы
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+local.properties
+.loadpath
+.recommenders
+.target
+.tern-project
+.texlipse
+.springBeans
+.recommenders/
+.apt_generated/
+.apt_generated_test/
+.factorypath
+.buildpath
+.settings/
+.launch
+*.launch
+.pydevproject
+.cproject
+.autotools
+.ptp-sync-folder
+
+# 📦 Архивы
+# ============================================================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# 🔧 Системные файлы
+# ============================================================================
+*.exe
+*.o
+*.so
+*.dll
+*.dylib
+*.class
+
+# 🚫 Прочие временные файлы
+# ============================================================================
+.sass-cache/
+.connect.lock
+.grunt
+typings/
+.angular/cache
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ============================================================================
+# СПЕЦИАЛЬНЫЕ ИСКЛЮЧЕНИЯ
+# ============================================================================
+
+# Разрешаем примеры файлов кошельков (они безопасны)
+!*_wallets.example
+!.env.example
+
+# Разрешаем важные конфигурационные файлы
+!config.py
+!package.json
+!requirements.txt
